@@ -14,6 +14,9 @@ For `sender.py`, it takes 14 arguments in the format of
 python3 sender.py $receiver_host_ip $receiver_port $file $MWS $MSS $gamma $pDrop $pDuplicate $pCorrupt $pOrder $maxOrder $pDelay $maxDelay $seed
 ```
 Of these, arguments starting from `$pDrop` is for PLD module. The following table is for the meaning of each of these arguments.
+
+| Argument Name | Meaning |
+| -------------- | -----|
 | receiver_host_ip | the host ip of the machine that the receiver is running |
 | receiver_port    | the port that the receiver is listening to |
 | file      | the name of file to be transmitted |
